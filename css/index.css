@@ -202,6 +202,21 @@ p {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+.home .walk .walk-text .btn {
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#476e9e', GradientType=0);
+  background-color: #04153a;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 19px;
+  padding: 10px 18px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #253766;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
@@ -211,13 +226,27 @@ p {
   height: auto;
   border-radius: 10px;
 }
+.home1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f4f4f4;
+}
 .spacewalkers {
   text-align: center;
+  font-size: 3.5rem;
 }
 nav {
   display: flex;
-  justify-content: center;
-  width: 400px;
+  justify-content: space-evenly;
+  padding: 0 210px;
+  margin: 15px 0;
+}
+nav a {
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  color: #22283B;
+  font-size: 1.7rem;
 }
 footer {
   color: #22283B;
