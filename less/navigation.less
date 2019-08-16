@@ -1,1 +1,37 @@
 // Navigation code here
+.home1{
+    .flex(flex, center);
+    flex-direction: column;
+    background-color: #f4f4f4;
+}
+
+.spacewalkers{
+    text-align: center;
+    font-size:3.5rem;
+}
+
+nav{
+    .flex(flex, space-evenly);
+    // display:flex;
+    // justify-content:space-evenly;
+    padding: 0 210px;
+    margin: 15px 0;
+
+        @media @phone{
+            .flex(flex, space-around);
+            
+        }
+    
+    a{
+        text-decoration: none;
+        font-family: 'Ubuntu', sans-serif;
+        color: #22283B;
+        font-size:1.7rem;
+
+
+        @media @phone{
+
+            padding: 0 20px;
+        }
+    }
+}

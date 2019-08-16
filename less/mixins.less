@@ -1,1 +1,29 @@
 // Mixins Here
+.flex(@lex, @sun){
+    display:@lex;
+    justify-content: @sun
+}
+
+.img12(){
+    width: 28%;
+      margin: 20px 2.5%;
+      border-radius: 20px;
+      height: 100%;
+}
+
+.button(@family, @size){
+    font-family:@family;
+    font-size:@size;
+	border-radius:10px;
+	
+	display:flex;
+	justify-content: center;
+
+	background-color:#04153a;
+	color:#ffffff;
+	width:150px;
+	padding:20px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #253766;
+
+}
