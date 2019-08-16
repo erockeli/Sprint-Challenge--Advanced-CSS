@@ -1,1 +1,32 @@
 // Mixins Here
+.flex(@lex, @sun){
+    display:@lex;
+    justify-content: @sun
+}
+
+.img12(){
+    width: 28%;
+      margin: 20px 2.5%;
+      border-radius: 20px;
+      height: 100%;
+}
+
+.button(@family, @size){
+    font-family:@family;
+    font-size:@size;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#476e9e',GradientType=0);
+	background-color:#04153a;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	
+	
+	padding:10px 18px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #253766;
+
+}
